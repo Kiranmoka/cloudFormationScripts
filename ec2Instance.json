@@ -12,7 +12,7 @@
                }
             ],
             "SecurityGroups": [
-               "MySecurityGroup"
+               { "Ref" : "MySecurityGroup" }
             ]
          }
       },
