@@ -8,7 +8,7 @@
         "Tags" : [
           {
             "Key" : "Name",
-            "Value" : { "Fn::Join" : [ ":", [  "test", "Ec2", "Instance" ] ] }
+            "Value" : { "Fn::Join" : [ "-", [  "test", "Ec2", "Instance" ] ] }
           }
         ]
       }
